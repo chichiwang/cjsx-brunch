@@ -1,17 +1,20 @@
 {
-  "name": "coffee-script-brunch",
-  "version": "1.8.0",
-  "description": "Adds CoffeeScript support to brunch.",
-  "author": "Paul Miller (http://paulmillr.com/)",
-  "homepage": "https://github.com/brunch/coffee-script-brunch",
+  "name": "cjsx-brunch",
+  "version": "0.0.0",
+  "description": "Fork of Paul Miller's coffee-script-brunch to add cjsx support.",
+  "authors": [
+    "Paul Miller (http://paulmillr.com/)",
+    "Chi-chi Wang <chichi@wangchiyi.com>"
+  ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:brunch/coffee-script-brunch.git"
+    "url": "git@github.com:chichiwang/cjsx-brunch.git"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha"
   },
   "dependencies": {
+    "coffee-react-transform": "^0.5.0",
     "coffee-script": "~1.7.0"
   },
   "devDependencies": {

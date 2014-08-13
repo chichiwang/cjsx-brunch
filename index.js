@@ -1,4 +1,5 @@
 var coffeescript = require('coffee-script');
+var cjsx = require('coffee-react-transform');
 
 var isLiterate = function(path) {
   return /\.(litcoffee|coffee\.md)$/.test(path);
@@ -31,7 +32,7 @@ function CoffeeScriptCompiler(config) {
 CoffeeScriptCompiler.prototype.brunchPlugin = true;
 CoffeeScriptCompiler.prototype.type = 'javascript';
 CoffeeScriptCompiler.prototype.extension = 'coffee';
-CoffeeScriptCompiler.prototype.pattern = /\.(coffee(\.md)?|litcoffee)$/;
+CoffeeScriptCompiler.prototype.pattern = /\.(coffee(\.md)?|litcoffee|cjsx)$/;
 
 CoffeeScriptCompiler.prototype.compile = function(data, path, callback) {
   var options = {
@@ -40,6 +41,8 @@ CoffeeScriptCompiler.prototype.compile = function(data, path, callback) {
     sourceFiles: [path],
     literate: isLiterate(path)
   };
+
+  data = cjsx(data);
   var compiled;
   try {
     compiled = coffeescript.compile(data, options);
