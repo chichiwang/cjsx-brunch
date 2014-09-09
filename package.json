@@ -2,6 +2,7 @@
   "name": "cjsx-brunch",
   "version": "0.1.0",
   "description": "Fork of Paul Miller's coffee-script-brunch to add cjsx support.",
+  "keywords": ["cjsx", "jsx", "coffeescript", "brunch", "plugin"],
   "authors": [
     "Paul Miller (http://paulmillr.com/)",
     "Chi-chi Wang <chichi@wangchiyi.com>"
