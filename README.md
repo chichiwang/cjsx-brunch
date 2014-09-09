@@ -2,6 +2,8 @@
 
 A fork of [coffee-script-brunch](https://github.com/brunch/coffee-script-brunch) by [Paul Miller](http://paulmillr.com/) to support [CJSX](https://github.com/jsdf/coffee-react-transform)
 
+This plugin will compile `*.coffee` and `*.cjsx` files.
+
 ## Installation
 Install cjsx-brunch via npm:
 
