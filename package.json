@@ -16,7 +16,7 @@
     "test": "node_modules/.bin/mocha"
   },
   "dependencies": {
-    "coffee-react-transform": "^1.0.0",
+    "coffee-react-transform": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "1.11.0",
