@@ -1,16 +1,13 @@
 {
   "name": "cjsx-brunch",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Fork of Paul Miller's coffee-script-brunch@1.8.1 to add cjsx support.",
   "keywords": ["cjsx", "jsx", "coffeescript", "brunch", "plugin"],
   "authors": [
     "Paul Miller (http://paulmillr.com/)",
     "Chi-chi Wang <chichi@wangchiyi.com>"
   ],
-  "homepage": [
-    "https://github.com/brunch/coffee-script-brunch",
-    "https://github.com/chichiwang/cjsx-brunch"
-  ],
+  "homepage": "https://github.com/chichiwang/cjsx-brunch",
   "repository": {
     "type": "git",
     "url": "git@github.com:chichiwang/cjsx-brunch.git"
@@ -19,7 +16,7 @@
     "test": "node_modules/.bin/mocha"
   },
   "dependencies": {
-    "coffee-react-transform": "^0.5.0",
+    "coffee-react-transform": "^1.0.0",
   },
   "devDependencies": {
     "mocha": "1.11.0",
