@@ -16,7 +16,7 @@
     "test": "node_modules/.bin/mocha"
   },
   "dependencies": {
-    "coffee-react-transform": "git://github.com/korpirkor/coffee-react-transform.git#0273fa34eafb0602a0283d234bf49d6a53afeb8a",
+    "coffee-react-transform": "git://github.com/korpirkor/coffee-react-transform.git#ea0364ac66e71a65a20de937d186abda2b7a0edc",
     "coffee-script": "^1.8.0"
   },
   "devDependencies": {
