@@ -1,3 +1,10 @@
+# cjsx-brunch 0.2.0 (15 November 2014)
+* Updated coffee-react-transform to v1.0.0
+* Support for React < 0.12 is dropped
+
+# coffee-script-brunch 1.8.1 (13 September 2014)
+* Updated CoffeeScript to 1.8.x.
+
 # coffee-script-brunch 1.8.0 (13 February 2014)
 * Updated CoffeeScript to 1.7.x.
 
